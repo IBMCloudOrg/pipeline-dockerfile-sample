@@ -1,3 +1,3 @@
-FROM ubuntu
+FROM node:7-alpine
 
-RUN /bin/bash pwd
+RUN apk add -U subversion
